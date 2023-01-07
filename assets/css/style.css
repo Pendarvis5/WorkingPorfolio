@@ -1,0 +1,38 @@
+/*universal selectors*/
+
+* {box-sizing: border-box;
+    background-color: darkslategray;
+    
+    
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 16px;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    font-size: 40px;
+ 
+}
+
+
+ul {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 25px;
+    
+}
+
+li {
+    width: 100px;
+    text-decoration: none;
+}
+
+.about-me img {
+
+}
