@@ -74,11 +74,12 @@ p{
 }
 
 #work-content h2, #contact-area h2{
+    display: block;
     width: 5%;
-    padding-left: 1.0rem;
+    padding-left: 10px;
     margin-left: 1.0rem;
     box-shadow: inset 5px 0 5px -5px #92b441;
-    display: inline-block;
+    
     font-style: italic;
     color: #92b441;
     font-size: 30px;
@@ -87,14 +88,17 @@ p{
 #work-content{
     display: flex;
     text-align: center;
-    align-items: flex-end;
     justify-content: space-evenly;
     
 }
 
+.column{
+    padding-left: 30px;
+}
+
 #contact-area nav a{
     display: inline;
-    padding: 40px;
+    padding-left: 40px;
    font-size: 15px;
     font-family: "Lucida Console", "Courier New", monospace;
     color: aliceblue;
